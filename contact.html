@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Kashmir Inn</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Topbar -->
+  <div class="topbar">
+    <div class="topbar-inner">
+      <a href="mailto:info@hotelkashmirinn.com">info@hotelkashmirinn.com</a>
+      <div class="socials">
+        <a class="icon" href="https://www.facebook.com/kashmirinn.in" target="_blank" aria-label="Facebook" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.2 3-3.2.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.3l-.4 3h-1.9v7A10 10 0 0 0 22 12"/></svg>
+        </a>
+        <a class="icon" href="https://www.instagram.com/hotel_kashmir_inn?igsh=bGM4cWx5dnJvbmRv" target="_blank" aria-label="Instagram" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2z"/></svg>
+        </a>
+        <a class="icon" href="https://wa.me/917889682277" target="_blank" aria-label="WhatsApp" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M12.1 2A10 10 0 0 0 2 12a9.9 9.9 0 0 0 1.4 5.2L2 22l4.9-1.3A10 10 0 1 0 12.1 2zm5.8 14.6c-.2.6-1.2 1.1-1.7 1.1-.5 0-1 .2-3.3-1-2.8-1.3-4.6-4.1-4.7-4.3-.1-.2-1.1-1.5-1.1-2.8s.7-1.8 1-2c.2-.2.6-.3 1-.3h.2c.3 0 .5 0 .7.6.3.7 1 2.4 1.1 2.6.1.2.1.4 0 .6-.1.2-.2.4-.4.6l-.2.3c-.1.1-.2.3-.1.5.2.4.7 1.3 1.6 2.1 1.1 1 2.1 1.3 2.4 1.5.3.1.5.1.7-.1l.5-.6c.2-.2.4-.2.6-.1.2.1 1.6.8 1.8.9.2.1.5.2.6.3.1.2.1.5 0 .7z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo-wrap" href="index.html" aria-label="Kashmir Inn home">
+        <div class="logo-badge">KI</div>
+        <img src="kashmir_inn_logo-white transparent.png" alt="Kashmir Inn Logo" 
+       style="height:80px; width:auto; object-fit:contain; display:block;">
+</a>
+
+      <!-- DESKTOP NAV (inline) -->
+      <nav class="main-nav" aria-label="Main">
+        <button class="drawer-close" aria-label="Close menu">✕</button>
+        <a href="index.html" >Home</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="bikes.html">Bike rentals</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html"class="active">Contact</a>
+      </nav>
+
+      <!-- Hamburger -->
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+
+
+  <main class="content-bottom-space">
+    <!-- No hero: directly form + image row -->
+    <section class="container" style="padding:48px 0">
+      <h1>Contact & Booking</h1>
+      <div class="contact-grid" style="margin-top:18px;grid-template-columns:1fr 1fr">
+        <div class="contact-form reveal">
+          <h3>Send an Enquiry</h3>
+          <form action="https://formspree.io/f/xldlkrgy" method="post" >
+            <label>Name</label><input type="text" name="name" required>
+            <label>Email</label><input type="email" name="email" required>
+            <label>Phone</label><input type="tel" name="phone" required>
+            <label>Message / Dates / Room</label><textarea name="message" rows="6" required></textarea>
+            <button type="submit" class="btn contact" style="margin-top:10px">Send Enquiry</button>
+          </form>
+        </div>
+        <div class="contact-card reveal" style="display:flex;align-items:center;justify-content:center">
+          <img src="contact.jpg" alt="Kashmir Inn" style="width:100%;height:420px;object-fit:cover;border-radius:14px">
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Full width map below -->
+     
+    <section style="padding:0 0 56px">
+      <iframe src="https://www.google.com/maps?q=Khyam%20Chowk%2C%20Bilal%20Colony%2C%20Srinagar&output=embed" width="100%" height="340" style="border:0;display:block" allowfullscreen="" loading="lazy" title="Kashmir Inn Map"></iframe>
+    </section>
+    <!-- Payment & Contact (on Home) -->
+    <section id="paymentBooking" class="container" data-anim="fade" style="padding-top:32px">
+      <h2>Payment / Deposit & Contact</h2>
+      <p class="lead">Scan any QR with PhonePe / Google Pay / BHIM or use the contact form below.</p>
+
+      <div class="payment-grid" style="display:flex;gap:100px;flex-wrap:wrap;justify-content:center;align-items:flex-start;margin-top:12px">
+        <div class="payment-card">
+          <div class="qr-wrap" style="width:420px;height:520px;border-radius:10px;background:#fff;display:flex;align-items:center;justify-content:center;padding:1px;border:6px solid #fff;box-shadow:0 10px 30px rgba(0,0,0,0.26)">
+            <img src="assets/qr.jpeg" alt="PhonePe sample QR" style="max-width:100%;max-height:100%;object-fit:contain;display:block">
+          </div>
+          <div style="font-weight:700">PhonePe — Kashmir Inn</div>
+          <div style="font-size:13px;color:var(--muted)">Scan with PhonePe / Google Pay</div>
+        </div>
+
+        <div class="payment-card">
+          <div class="qr-wrap" style="width:420px;height:520px;border-radius:10px;background:#fff;display:flex;align-items:center;justify-content:center;padding:12px;border:6px solid #fff;box-shadow:0 10px 30px rgba(0,0,0,0.26)">
+            <img src="assets/qqq.jpeg" alt="ICICI sample QR" style="max-width:100%;max-height:100%;object-fit:contain;display:block">
+          </div>
+          <div style="font-weight:700">ICICI / UPI — Kashmir Inn</div>
+          <div style="font-size:13px;color:var(--muted)">UPI ID: kashmirinnmotorcycleclub@okicici</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col"><h4>Kashmir Inn</h4><p>Khyam Chowk, Bilal Colony, Srinagar</p></div>
+      <div class="footer-col"><h4>Quick Links</h4><div class="footer-links"><a href="index.html">Home</a><a href="rooms.html">Rooms</a><a href="bikes.html">Bikes rentals</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></div></div>
+      <div class="footer-col"><h4>Follow Us</h4><div class="footer-social"><a href="https://www.facebook.com/kashmirinn.in" target="_blank">Facebook</a><a href="https://wa.me/917889682277" target="_blank">WhatsApp</a><a href="https://www.instagram.com/hotel_kashmir_inn?igsh=bGM4cWx5dnJvbmRv" target="_blank">Instagram</a></div></div>
+    </div>
+    <div class="footer-bottom"><small>© <span id="year5"></span> Webtech developed by irtizah qadri.</small></div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
